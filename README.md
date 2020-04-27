@@ -1,0 +1,1 @@
+A django built craiglist search interface, that renders search result scraped from 'los.angeles.craiglist.org' more beautifully.
