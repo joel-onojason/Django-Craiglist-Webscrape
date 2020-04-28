@@ -132,3 +132,6 @@ STATICFILES_DIRS = (
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 django_heroku.settings(locals())
+
+#The code below checks for ssl error on your local machine after you have deployed on Heroku
+del DATABASES['default']['OPTIONS']['sslmode']
